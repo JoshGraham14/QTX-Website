@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    color: #F8F8FB;
+}
+
+.landing-page{
+    height: 100vh;
+}
+
+#bg-image{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    z-index: -1;
+}
+
+
+nav{
+    padding: 4vh;
+    padding-top: 6vh;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    display: inline;
+    margin-right: 7rem;
+    float: right;
+}
+
+a{
+    text-decoration: none;
+    color: #F8F8FB;
+    font-size: 1.6rem;
+}
+
+li a:hover{
+    color: #D75753;
+}
+
+button{
+    background-color: #D75753;
+    color: #F8F8FB;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.6rem;
+    border: none;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    margin: auto;
+    margin-top: 20vh;
+    justify-content: center;
+}
+
+.welcome-text{
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+#red-line{
+    background-color: #D75753;
+    border: none;
+    height: 0.6vh;
+    width: 12%;
+    margin: auto;
+}
+
+.landing-copy{
+    font-size: 20px;
+    font-weight: lighter;
+    line-height: 160%;
+    margin: auto;
+    padding: 2rem 4rem 2.8rem 4rem;
+    text-align: center;
+}
+
+.landing-btns{
+    margin: 0 auto;
+}
