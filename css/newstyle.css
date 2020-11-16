@@ -1,0 +1,147 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    color: #F8F8FB;
+}
+
+.landing-page{
+    height: 100vh;
+}
+
+#bg-image{
+    position: absolute;
+    z-index: -1;
+     /* Full height */
+    height: 100vh;
+    width: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Section 1 content*/
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.landing-logo{
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    margin-top: 10px!important;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+a{
+    text-decoration: none;
+    color: #FFF;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height */
+
+    letter-spacing: 0.05em;
+}
+
+button{
+    border-radius: 100px;
+    width: 203px;
+    height: 60px;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    background-color: #EF433E;
+    color: #FFF;
+}
+
+.nav-btn{
+    height: 51px;
+}
+
+.red-shadow{
+    box-shadow: 0px 2px 12px 3px rgba(239, 67, 62, 0.75);
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.white-blue-btn{
+    background: #F8F8FB;
+    color: #1D57A5;
+}
+
+.landing-btns{
+    margin-top: 10px;
+    padding: 40px;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 32%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 11%;
+}
+
+.big-header-text{
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 64px;
+    /* identical to box height */
+    text-align: center;
+}
+
+#red-line{
+    width: 72px;
+    height: 0px;
+    border: 3px solid #EF433E;
+    margin-top: 20px;
+    margin-bottom: 34px;
+}
+
+.copy{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 175% */
+    text-align: center;
+    margin-left: 13%;
+    margin-right: 13%;
+}
