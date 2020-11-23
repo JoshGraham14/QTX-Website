@@ -65,7 +65,7 @@ a{
     letter-spacing: 0.05em;
 }
 
-button{
+.main-btns{
     border-radius: 100px;
     width: 203px;
     height: 60px;
@@ -123,8 +123,6 @@ button:hover{
     font-weight: 900;
     font-size: 48px;
     line-height: 64px;
-    /* identical to box height */
-    text-align: center;
 }
 
 #red-line{
@@ -140,8 +138,50 @@ button:hover{
     font-weight: 400;
     font-size: 16px;
     line-height: 28px;
-    /* or 175% */
-    text-align: center;
     margin-left: 13%;
     margin-right: 13%;
+}
+
+/*********** Josh's CSS *************/
+.sbmt-btn{
+    border-radius: 6px;
+    width: 476px;
+    height: 48px;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    background-color: #EF433E;
+    color: #FFF;
+}
+
+.main-content-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    width: 24%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 11%;
+}
+
+.form-input{
+    width: 476px;
+    height: 48px;
+    background: #F8F8FB;
+    border-radius: 6px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    padding-left: 5%;
 }
