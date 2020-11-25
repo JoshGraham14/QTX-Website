@@ -17,25 +17,30 @@
                     <img class="landing-logo" src="img/logo.svg" alt="Logo">
                 </a>
                 <ul class="nav-links">
-                    <li><a href="corporate.html">CORPORATE</a></li>
+                    <li><a id="red-nav-link" href="corporate.html">CORPORATE</a></li>
                     <li><a href="https://google.ca">CLUBS</a></li>
                     <li><a href="https://google.ca">CONTACT</a></li>
-                    <li><button class="main-btns nav-btn">APPLY</button></li>                        
+                    <li><button class="main-btns nav-btn" onclick="window.location.href='apply.html';">
+                        APPLY
+                        </button>
+                    </li>                         
                 </ul>
             </nav>
         </header>
         <div class="main-content-left">
             <h1 class="big-header-text">Sponsorships</h1>
             <hr id="red-line">
-            <p class="copy">
+            <p class="copy-left">
                 We look forword to contacting you.
             </p>
             <form>
                 <input class="form-input" type="text" id="fullname" placeholder="Full name" name="fullname"><br>
                 <input class="form-input" type="text" id="email" placeholder="email address" name="email"><br>
                 <input class="form-input" type="text" id="school" placeholder="school" name="school"><br>
-                <li><button class="sbmt-btn">SUBMIT</button></li>
-              </form>
+                <button class="sbmt-btn">
+                    <a href="corporate.html">SUBMIT</a>
+                </button>
+            </form>
         </div>
     </section>
 </body>
